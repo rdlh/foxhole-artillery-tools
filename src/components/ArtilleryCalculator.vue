@@ -4,7 +4,7 @@ import TriangleVisualization from './TriangleVisualization.vue';
 import CalculationHistory from './CalculationHistory.vue';
 import LanguageSelector from './LanguageSelector.vue';
 import ThemeToggle from './ThemeToggle.vue';
-import ArtilleryGroup from './ArtilleryGroup.vue';
+// import ArtilleryGroup from './ArtilleryGroup.vue';
 import SpotterMode from './SpotterMode.vue';
 import MapMode from './MapMode.vue';
 
@@ -96,14 +96,14 @@ const triangleVis = ref<TriangleVisRef | null>(null);
     </div>
 
     <!-- Add the Artillery Group component at the top -->
-    <ArtilleryGroup 
+    <!-- <ArtilleryGroup 
       ref="artilleryGroup"
       :onCalculationReceived="handleReceivedCalculation"
       :spotterToTargetDistance="artilleryStore.spotterToTargetDistance"
       :spotterToTargetAzimuth="artilleryStore.spotterToTargetAzimuth"
       :spotterToArtilleryDistance="artilleryStore.spotterToArtilleryDistance"
       :spotterToArtilleryAzimuth="artilleryStore.spotterToArtilleryAzimuth"
-    />
+    /> -->
 
     <div class="max-w-8xl flex border-b border-gray-200 dark:border-gray-700">
       <button class="px-4 py-2 font-semibold" 

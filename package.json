@@ -1,0 +1,14 @@
+{
+  "name": "artillery-calculator-server",
+  "version": "1.0.0",
+  "description": "WebSocket server for Artillery Calculator",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "client": "vite",
+    "build-client": "vite build",
+    "server": "bun --watch server.js",
+    "build-server": "bun build server.js"
+  },
+  "dependencies": {}
+}

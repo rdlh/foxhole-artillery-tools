@@ -639,7 +639,7 @@ watch(() => artilleryStore.windDirection, () => {
         </div>
         <div
           v-if="artilleryStore.result"
-          class="p-4 border has-class-[valid]:border-green-500 has-class-[invalid]:border-red-500 has-class-[warning]:border-yellow-500 rounded-md has-class-[valid]:bg-green-200 has-class-[invalid]:bg-red-200 has-class-[warning]:bg-yellow-200 has-class-[valid]:dark:bg-green-900 has-class-[invalid]:dark:bg-red-900 has-class-[warning]:dark:bg-yellow-900 has-class-[valid]:dark:border-green-700 has-class-[invalid]:dark:border-red-700 has-class-[warning]:dark:border-yellow-700"
+          class="p-4 border [&.valid]:border-green-500 [&.invalid]:border-red-500 [&.warning]:border-yellow-500 rounded-md [&.valid]:bg-green-200 [&.invalid]:bg-red-200 [&.warning]:bg-yellow-200 [&.valid]:dark:bg-green-900 [&.invalid]:dark:bg-red-900 [&.warning]:dark:bg-yellow-900 [&.valid]:dark:border-green-700 [&.invalid]:dark:border-red-700 [&.warning]:dark:border-yellow-700"
           :class="{
             'valid': artilleryStore.resultValid.isValid,
             'invalid': !artilleryStore.resultValid.isValid && artilleryStore.resultValid.type === 'error',

@@ -10,5 +10,8 @@
     "server": "bun --watch server.js",
     "build-server": "bun build server.js"
   },
-  "packageManager": "yarn@3.5.1"
+  "packageManager": "yarn@3.5.1",
+  "dependencies": {
+    "vite": "6.2.0"
+  }
 }

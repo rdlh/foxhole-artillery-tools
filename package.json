@@ -10,5 +10,5 @@
     "server": "bun --watch server.js",
     "build-server": "bun build server.js"
   },
-  "dependencies": {}
+  "packageManager": "yarn@3.5.1"
 }

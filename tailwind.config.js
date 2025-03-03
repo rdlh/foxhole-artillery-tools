@@ -3,6 +3,7 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./src/assets/*.css"  // Make sure this includes your CSS files
   ],
   darkMode: 'class',
   theme: {

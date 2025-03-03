@@ -1089,6 +1089,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tailwindcss/vite@npm:^4.0.9":
+  version: 4.0.9
+  resolution: "@tailwindcss/vite@npm:4.0.9"
+  dependencies:
+    "@tailwindcss/node": 4.0.9
+    "@tailwindcss/oxide": 4.0.9
+    lightningcss: ^1.29.1
+    tailwindcss: 4.0.9
+  peerDependencies:
+    vite: ^5.2.0 || ^6
+  checksum: cd9c99b0c8fa12a246468640e5c7c4b3501e278ea180e948ec802ece9f22473715a10f712c9e1bf18b9f822aa0a8a3e1d99810dcff792f4f06f7b5efb23ffdba
+  languageName: node
+  linkType: hard
+
 "@tsconfig/node22@npm:^22.0.0":
   version: 22.0.0
   resolution: "@tsconfig/node22@npm:22.0.0"
@@ -2429,6 +2443,7 @@ __metadata:
   resolution: "foxhole-artillery-tools@workspace:."
   dependencies:
     "@tailwindcss/postcss": ^4.0.9
+    "@tailwindcss/vite": ^4.0.9
     "@tsconfig/node22": ^22.0.0
     "@types/node": ^22.0.0
     "@vitejs/plugin-vue": ^5.2.1
@@ -2441,6 +2456,7 @@ __metadata:
     eslint-plugin-oxlint: ^0.15.12
     eslint-plugin-vue: ^9.21.1
     pinia: ^2.1.7
+    postcss: ^8.5.3
     tailwindcss: ^4.0.9
     typescript: ~5.7.2
     vite: ^6.2.0
